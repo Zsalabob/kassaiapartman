@@ -1,0 +1,75 @@
+body{
+  color: #293647;
+  animation: slide-up 2s;
+}
+
+.bg-fej {
+  background-position: center;
+  height: 250px;
+  padding-top: 75px;
+  background-color: #816f3c;
+}
+
+.bg-fej h1{
+  color: white;
+  font-size: 500%;
+  text-decoration: underline;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container{
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  
+}
+
+.bg-torzs {
+  background-color: #C5C599;
+}
+
+h3{
+  margin: 25px 0px;
+  font-weight: bold;
+}
+
+a {
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+}
+
+#kalkGomb {
+  margin: 20px auto;
+}
+
+#valasz{
+  visibility:hidden;
+}
+h2
+{
+  font-size: 44px;
+}
+h4
+{
+  text-align: center;
+  font-size: 47px;
+  font-weight: bold;
+}
+@keyframes slide-up
+{
+  from
+  {
+    opacity: 0.2;
+    line-height: 200px;
+  }
+  to 
+  {
+    opacity: 1;
+    line-height: 25px;
+  }
+}
+
+
